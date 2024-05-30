@@ -1,0 +1,66 @@
+
+.container
+{
+  background-color:blue;
+  width:100%;
+  min-height:700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.card
+{
+  border-radius: 1rem;
+}
+.card-body:hover {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button{
+opacity:0.8;
+}
+
+.row
+{
+  display:flex;
+  text-align: left;
+  justify-content: center;
+  line-height: 30px;
+  
+}
+.card-title,.card-plan
+{
+  text-align: center;
+}
+
+ul li{
+  list-style-type: none;
+  
+}
+
+.red:hover
+{
+  background-attachment: fixed;
+}
+a{
+  display:block;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: blue;
+  padding:10px;
+  color:white;
+  text-align: center;
+}
+
+.text-muted
+{
+  opacity:0.7;
+}
+
